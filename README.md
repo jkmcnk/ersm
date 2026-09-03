@@ -46,7 +46,7 @@ Now configure the path to the save game. Quote the path, it will commonly contai
 ```
 # ./ersm.sh configure '/home/xyz/.steam/steam/steamapps/compatdata/1245620/pfx/drive_c/users/steamuser/Application Data/EldenRing/76561198054192120/ER0000.sl2'
 ```
-https://raw.githubusercontent.com/jkmcnk/ersm/refs/heads/main/ersm.sh
+
 And you're ready to go. Play some Elden Ring. Get somewhere. Store your save.
 
 You should quit out before you do. You don't want the game writing to your save while copying it.
@@ -64,5 +64,6 @@ Again, you should quit out before you do, otherwise the restore will be in vain.
 # ./ersm.sh restore nohit setup-3-dts
 restored your current save
 ```
+
 
 That's it. Go work on your runs.
